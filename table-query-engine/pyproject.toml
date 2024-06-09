@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=40.8.0",
+    "wheel"
+]
+
+[project]
+name = "table_query_engine"
+version = "0.1.0"
+description = "Table query engine."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "uvicorn",
+    "fastapi",
+    "openai",
+    "requests",
+    "python-multipart",
+    "llama-index>=0.10.29",
+    "llama-index-llms-openai-like",
+    "llama-index-experimental",
+]
